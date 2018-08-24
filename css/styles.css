@@ -147,7 +147,7 @@ nav h1 a {
 /* ====================== Map ====================== */
 
 #map {
-    height: 600px;
+    height: 400px;
     width: 100%;
     background-color: #ccc;
 }
@@ -349,4 +349,31 @@ nav h1 a {
 
 #restaurant-hours td {
     color: #666;
+}
+
+@media screen and (min-width: 380px) {
+    #map {
+        height: 800px;
+    }
+    nav h1 a {
+        font-size: 40px;
+        letter-spacing: 10px;
+        text-transform: uppercase;
+    }
+    #restaurants-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 100%;
+    }
+    .filter-options {
+        height: 100px;
+    }
+    .filter-options h2 {
+        font-size: 2rem;
+        font-weight: normal;
+    }
+    .filter-options select {
+        font-size: 18pt;
+    }
 }
