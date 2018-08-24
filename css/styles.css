@@ -351,6 +351,9 @@ nav h1 a {
     color: #666;
 }
 
+
+/*========== laptop display =============*/
+
 @media screen and (min-width: 380px) {
     #map {
         height: 800px;
@@ -374,6 +377,6 @@ nav h1 a {
         font-weight: normal;
     }
     .filter-options select {
-        font-size: 18pt;
+        font-size: 11pt;
     }
 }
