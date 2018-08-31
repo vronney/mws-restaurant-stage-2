@@ -81,6 +81,17 @@ section {
 }
 
 
+/* ====================== GRID ============================ */
+
+ul#restaurants-list {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-around;
+    grid-gap: 2vm;
+}
+
+
 /* ====================== Navigation ====================== */
 
 nav {
@@ -366,7 +377,7 @@ nav h1 a {
     #restaurants-list {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-evenly;
         max-width: 100%;
     }
     .filter-options {
