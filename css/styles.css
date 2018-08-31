@@ -283,6 +283,7 @@ nav h1 a {
     bottom: 0;
     position: absolute;
     width: 50%;
+    box-sizing: border-box;
 }
 
 #restaurant-name {
