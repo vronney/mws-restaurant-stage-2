@@ -300,22 +300,34 @@ nav h1 a {
 }
 
 
+/* 
+.filter-options {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+} */
+
+
 /* ====================== Restaurant Details ====================== */
 
+
+/*
 .inside header {
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
 }
+*/
 
 .inside #map-container {
     background: blue none repeat scroll 0 0;
     height: 87%;
-    position: fixed;
+    /*position: fixed;
     right: 0;
     top: 80px;
-    width: 50%;
+    width: 50%;*/
 }
 
 .inside #map {
@@ -324,17 +336,20 @@ nav h1 a {
     width: 100%;
 }
 
+
+/*
 .inside #footer {
     bottom: 0;
     position: absolute;
     width: 50%;
     box-sizing: border-box;
 }
+*/
 
 #restaurant-name {
     color: #f18200;
     font-family: Arial, sans-serif;
-    font-size: 20pt;
+    font-size: 24px;
     font-weight: 200;
     letter-spacing: 0;
     margin: 15px 0 30px;
@@ -343,8 +358,18 @@ nav h1 a {
     text-align: center;
 }
 
+h3 {
+    color: #a85908;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 0;
+    margin: 15px 10px;
+    text-transform: uppercase;
+}
+
 #restaurant-img {
-    width: 90%;
+    width: 100%;
 }
 
 #restaurant-address {
