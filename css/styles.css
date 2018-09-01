@@ -372,6 +372,11 @@ nav h1 a {
 /*========== laptop display =============*/
 
 @media screen and (min-width: 380px) {
+    #maincontent,
+    header {
+        max-width: auto;
+        margin: 0 40px 0 40px;
+    }
     #map {
         height: 800px;
     }
