@@ -232,6 +232,24 @@ nav h1 a {
     max-width: 300px;
 }
 
+@media only screen and (min-max: 0px) {
+    #restaurant-list li {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width: 714px) {
+    #restaurant-list li {
+        max-width: 45%;
+    }
+}
+
+@media only screen and (min-width: 1032px) {
+    #restaurant-list li {
+        max-width: 300px;
+    }
+}
+
 #restaurants-list .restaurant-img {
     background-color: #ccc;
     display: block;
