@@ -9,7 +9,7 @@
     <!-- Main CSS file -->
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin="" />
-    <script type="application/javascript" charset="utf-8" src="js/register.js"></script>"
+    <script type="application/javascript" charset="utf-8" src="js/register.js"></script>
     <title>Restaurant Info</title>
 </head>
 
@@ -35,11 +35,6 @@
 
     <!-- Beginning main -->
     <main id="maincontent">
-        <!-- Beginning map -->
-        <!-- <section id="map-container">
-            <div id="map"></div>
-        </section> -->
-        <!-- End map -->
         <!-- Beginning restaurant -->
         <section id="restaurant-container">
             <h2 id="restaurant-name"></h2>
@@ -47,17 +42,19 @@
             <p id="restaurant-cuisine"></p>
         </section>
         <section id="restaurant-address-and-hours">
-            <p id="restaurant-address" aria-labelledby="restaurant-address-label"></p>
-            <label id="restaurant-address-label" class="restaurant-info-label">address</label>
+            <p id="restaurant-address"></p>
             <!-- Beginning Map -->
-            <section id="map-container" aria-labelledby="map-aria-description" role="application">
-                <div id="map"></div>
-            </section>
-            <label id="map-aria-description" class="map-aria-description">Leaflet Map Application</label>
+            <div id="map-container1">
+                <section id="map-container">
+                    <div id="map"></div>
+                </section>
+            </div>
             <!-- End Map -->
+            <div id="restaurant-hours-of-operation">
+                <h3 class="hours">Restaurant Hours of Operation</h3>
+            </div>
             <div class="restaurant-hours-flex">
-                <table id="restaurant-hours" aria-labelledby="restaurant-hours-label"></table>
-                <label id="restaurant-hours-label" class="restaurant-info-label">hours of operation</label>
+                <table id="restaurant-hours"></table>
             </div>
         </section>
         <!-- end restaurant -->
