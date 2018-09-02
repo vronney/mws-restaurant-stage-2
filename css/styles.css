@@ -380,6 +380,9 @@ h3 {
     height: 600px;
 }
 
+
+/*========= Phone View ========= */
+
 @media only screen and (max-width: 400px) {
     .inside #restaurant-img {
         width: 350px;
