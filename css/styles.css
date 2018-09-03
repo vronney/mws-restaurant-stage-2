@@ -490,8 +490,14 @@ h3 {
     color: #666;
 }
 
-#restaurant-review-user {
-    font-weight: 700px;
+#reviews-list p:first-of-type {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.inside #breadcrumb {
+    font-size: 20px;
+    font-weight: 700;
 }
 
 
